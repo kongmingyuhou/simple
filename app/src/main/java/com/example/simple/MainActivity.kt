@@ -12,5 +12,8 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         btn_button_click.setOnClickListener { startActivity<ButtonClickActivity>() }
+        btn_check_box.setOnClickListener { startActivity<CheckboxActivity>() }
+        btn_radio_button.setOnClickListener { startActivity<RadioButtonActivity>() }
+
     }
 }

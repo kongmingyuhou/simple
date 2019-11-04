@@ -37,6 +37,20 @@
                     android:layout_weight="1"
                     android:text="普通按钮" />
 
+                <Button
+                    android:id="@+id/btn_check_box"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="复选框" />
+
+                <Button
+                    android:id="@+id/btn_radio_button"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="单选框" />
+
             </LinearLayout>
 
         </LinearLayout>
