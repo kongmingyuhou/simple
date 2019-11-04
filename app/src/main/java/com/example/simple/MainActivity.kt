@@ -14,6 +14,7 @@ class MainActivity : AppCompatActivity() {
         btn_button_click.setOnClickListener { startActivity<ButtonClickActivity>() }
         btn_check_box.setOnClickListener { startActivity<CheckboxActivity>() }
         btn_radio_button.setOnClickListener { startActivity<RadioButtonActivity>() }
+        btn_linear_layout.setOnClickListener { startActivity<LinearLayoutActivity>() }
 
     }
 }
